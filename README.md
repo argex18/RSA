@@ -1,10 +1,11 @@
 Update 11/10/2019:
-WARNING: With the longest available key (2048 bit), the maximum number of convertable bytes it's 245 for the RSA alghoritm. 
-	 This because the RSA alghoritm is always used to securely transfer a symmetric alghoritm key with 
+WARNING: With the longest available key (2048 bit), the maximum number of convertable bytes it's 245 for the RSA algorithm. 
+	 This because the RSA algorithm is always used to securely transfer a symmetric algorithm key with 
 	 which then we will be able to encrypt an "endless" data storage. 
 	 If you attempt to encrypt over this limit, the procedure will end unsuccessfully.
  
 	- Created the executable .class file compiled by javac 13
+	- Added a delay of 1 second during the encryption and decryption procedures in order to eventually avoid buffer overflows
 
 
 -------------------------------------ITALIAN VERSION---------------------------------------
